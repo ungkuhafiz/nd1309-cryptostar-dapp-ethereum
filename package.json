@@ -1,0 +1,12 @@
+{
+    "name": "cryptostar-dapp-ethereum",
+    "version": "1.0.0",
+    "description": "Cryptostar Dapp on Ethereum",
+    "scripts": {},
+    "dependencies": {
+        "@truffle/hdwallet-provider": "^1.0.28",
+        "dotenv": "^8.2.0",
+        "openzeppelin-solidity": "^2.4.0",
+        "truffle-hdwallet-provider": "^1.0.17"
+    }
+}
