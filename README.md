@@ -1,30 +1,19 @@
 # nd1309-cryptostar-dapp-ethereum
 
-### To-Do List
+## Project Details
 
-- [ ] Task 1
-Your Project is to Modify the StarNotary version 2 contract code to achieve the following:
-Add a name and a symbol for your starNotary tokens. Resource
-Add a function lookUptokenIdToStarInfo, that looks up the stars using the Token ID, and then returns the name of the star.
-Add a function called exchangeStars, so 2 users can exchange their star tokens...Do not worry about the price, just write code to exchange stars between users.
-Write a function to Transfer a Star. The function should transfer a star from the address of the caller. The function should accept 2 arguments, the address to transfer the star to, and the token ID of the star.
+A Dapp built on top of Ethereum that allows user to create a star and submit to the blockchain. Other functionalities include the ability to transfer the ownership of star to another users, exchange stars, and lookup information for a specific star.
 
-- [ ] Task 2
-Add supporting unit tests, to test the following:
-The token name and token symbol are added properly.
-2 users can exchange their stars.
-Stars Tokens can be transferred from one address to anothe
+### Token Name: Hafiz Token
 
-- [ ] Task 3
-Deploy your Contract to Rinkeby
-Edit the truffle.config file to add settings to deploy your contract to the Rinkeby Public Network.
-Helper Points:
-Command used to deploy to Rinkeby truffle migrate --reset --network rinkeby
-You will need to have your Metamask’s seed and Infura setup.
-This was shown to you in detail in the lesson on Solidity, while creating ERC-20 tokens on Rinkeby.
+### Token Symbol: HFZ
 
-- [ ] Task 4
-Modify the front end of the DAPP to achieve the following:
-Lookup a star by ID using tokenIdToStarInfo() (you will have to add code for this in your index.html and index.js files)
+### Truffle version: 5.1.2
+
+### OpenZeppelin version: 2.4.0
+
+### Node version: 10.16.3
+
+### Contract address: [0xF9cE0327206DEcEad6A39F98F56B232e36BED9f9](https://rinkeby.etherscan.io/address/0xf9ce0327206decead6a39f98f56b232e36bed9f9)
 
 
